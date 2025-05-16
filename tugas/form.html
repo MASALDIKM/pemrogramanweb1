@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas2</title>
+</head>
+<body>
+        <form action="" method="POST">
+            <table border="1" cellpadding="5" cellspacing="2">
+                <tr>
+                    <th colspan="2" align="center">FORMULIR PENDAFTARAN ANGGOTA KOPERASI</th>
+                </tr>
+                <tr>
+                    <td>Nama Lengkap :</td>
+                    <td><input type="text" name="nama_lengkap"></td>
+                </tr>
+                <tr>
+                    <td>No ID Anggota :</td>
+                    <td>PA<input type="number" name="noid_anggota"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir :</td>
+                    <td><input type="date" name="tanggal_lahir"></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Jenis Anggota :</td>
+                    <td><input type="radio" name="jenis_anggota" value="s"> Silver</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="jenis_anggota" value="g"> Gold</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="jenis_anggota" value="p"> Platinum</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Keikutsertaan :</td>
+                    <td><input type="checkbox" name="Keikutsertaan" value="TE"> Tabungan Emas 
+                        <input type="checkbox" name="Keikutsertaan" value="TU"> Tabungan Umroh</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Keikutsertaan" value="TS"> Tabungan Safari 
+                        <input type="checkbox" name="Keikutsertaan" value="SP"> Simpan Pinjam</td>
+                </tr>
+                <tr>
+                    <td>Data KTP :</td>
+                    <td><input type="file" name="data_ktp" value="f"></td>
+                </tr>
+                <tr>
+                    <td>Cabang :</td>
+                    <td>
+                    <select name="cbng" id="">
+                        <option value="1">Majalengka</option>
+                        <option value="2">Majalaya</option>
+                        <option value="3">Antapani</option>
+                        <option value="4">Cicaheum</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Catatan Petugas :</td>
+                    <td><textarea type="text" name="catatan"></textarea></td>
+                </tr>
+
+                <tr>
+                <td>
+                    <input type="submit" value="SIMPAN"> 
+                    <input type="submit" value="CANCEL">
+                </td>
+                </tr>
+
+            </table>
+        </form>
+</body>
+</html>
